@@ -1,0 +1,85 @@
+.games-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.games-page .games {
+    flex-direction: row;
+}
+
+.games-page .games h2 {
+    margin-top: 20px;
+    margin: 40px;
+    padding: 10px;
+
+    background: white;
+    color: black;
+
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid #333333;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.games-page .games-items {
+
+    margin-top: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin: 30px;
+}
+
+.games-page .games-items a {
+    width: 30%;
+
+    margin-bottom: 20px;
+    
+    color: black;
+
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.games-page .games-items a .results-infosWhen {
+    margin-top: 5px; 
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.games-page .games-items a .results-infosWhen p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.games-page .games-items a .results-score {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin: 5px;
+}
+
+.games-page .games-items a .results-infosWhere {
+    margin-top: 5px; 
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.games-page .games-items a .results-infosWhere p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

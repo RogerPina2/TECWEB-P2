@@ -1,0 +1,165 @@
+.team-page {
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.team-page .team-infos {
+
+    margin: 20px 200px;
+    padding: 20px;
+
+    background: white;
+
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid #333333;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-page .team-infos .info {
+    width: 50%;
+    padding: 10px;
+}
+
+.team-page .team-infos .info h3 {
+
+    margin: 5px 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-page .team-infos .info ul {
+    margin: 10px 10px;
+    padding: 20px;
+
+    height: 80%;
+
+    background: whitesmoke;
+
+    border: 2px solid #333333;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.team-page .team-infos ul p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.team-page .team-infos .info ul .leagues {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.team-page .team-infos ul .leagues ul{
+    margin: 0px;    
+    padding: 0px;
+    border: 0px;
+
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.team-page .team-infos ul .leagues ul p {
+    text-transform: capitalize;
+}
+
+.team-page .team-infos .logo {
+    width: 40%;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-page .team-infos .logo img {
+    width: 300px;
+    height: 300px;
+}
+
+/* ######################################################################################### */
+
+.team-page .team-players {
+    margin: 20px 200px;
+    padding: 20px;
+
+    background: white;
+
+    border: 2px solid #333333;
+    border-radius: 5px;
+}
+
+.team-page .team-players h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-page .team-players ul {
+
+    margin-top: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-page .team-players ul article {
+    width: 45%;
+    margin: 10px 10px;
+    padding: 20px;
+
+    background: whitesmoke;
+
+    border: 2px solid #333333;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.team-page .team-players ul article p{
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.team-page .team-players a {
+    margin-top:10px;
+
+    background: #C9082A;
+
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    border: 2px solid #333333;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.team-page .team-players a:hover {
+    background: white;
+    color: #C9082A;
+}
